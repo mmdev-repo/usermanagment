@@ -23,10 +23,10 @@ public class AddUserTest {
 	private BCryptPasswordEncoder encoder;
 	
 	
-	@Test
+	/*@Test
 	public void createUser() {
 		
-		/*User user = new User();
+		User user = new User();
 		user.setPassword(encoder.encode("12345678"));
 		user.setUser("security");
 		user.setRoles("Admin");
@@ -37,16 +37,16 @@ public class AddUserTest {
 		
 		User response = repository.save(user);
 		
-		assertTrue(response.getPassword().equalsIgnoreCase(user.getPassword()));*/
+		assertTrue(response.getPassword().equalsIgnoreCase(user.getPassword()));
 		
-	}
+	}*/
 	
-	@Test
+	/*@Test
 	public void findByUserTest() {
 		String name = "security";
 		User response = repository.findByUser(name);
 		assertTrue(response.getUser().equalsIgnoreCase(name));
 		
 	}
-	
+	*/
 }
